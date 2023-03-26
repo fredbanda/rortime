@@ -25,9 +25,12 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem "bootsnap", require: false
 
-gem 'bootstrap', '~> 5.2.2'
+gem "bootstrap", "~> 5.2.2"
 
-gem 'jquery-rails'
+gem "jquery-rails"
+
+gem "font-awesome-sass", "~> 6.3.0"
+
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
